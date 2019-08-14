@@ -7,7 +7,7 @@
 
 var transmission,
     dialog,
-    isMobileDevice = RegExp("(iPhone|iPod|Android)").test(navigator.userAgent),
+    isMobileDevice = false,
     scroll_timeout;
 
 // http://forum.jquery.com/topic/combining-ui-dialog-and-tabs

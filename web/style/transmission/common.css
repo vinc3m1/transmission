@@ -376,6 +376,7 @@ div#torrent_inspector {
   top: 68px;
   position: fixed;
   width: 570px;
+  max-width: 80vw;
   z-index: 5;
   border-left: 1px solid #888;
   bottom: 22px;
